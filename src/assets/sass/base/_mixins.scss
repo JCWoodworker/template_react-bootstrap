@@ -38,6 +38,7 @@
 	$shadow: true,
 	$radius: true,
 	$border: true,
+	$thickness: 0px,
 	$color: colors.$blue-4
 ) {
 	@if $shadow {
@@ -47,6 +48,6 @@
 		border-radius: 0.5rem;
 	}
 	@if $border {
-		border: 2px solid $color;
+		border: $thickness solid $color;
 	}
 }

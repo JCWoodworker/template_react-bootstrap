@@ -26,5 +26,5 @@
 	width: 90%;
 	height: 90%;
 	object-fit: cover;
-	@include mixins.border($shadow: false, $border: false);
+	@include mixins.border($border: true, $thickness: 3px);
 }
