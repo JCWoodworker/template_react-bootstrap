@@ -1,10 +1,10 @@
-@use "../base/colors.scss" as colors;
-@use "../base/mixins.scss" as mixins;
+@use '../base' as base;
+
 
 .navigationBar {
-	background-color: colors.$blue-4;
+	background-color: base.$blue-4;
 	.navbar-brand {
-		color: colors.$blue-1;
+		color: base.$blue-1;
 		font-size: 1.5rem;
 	}
 }
@@ -21,20 +21,20 @@
 }
 
 #navLink {
-	color: colors.$blue-1;
+	color: base.$blue-1;
 	font-size: 1.25rem;
 	font-weight: bold;
-	@include mixins.border($shadow: false, $border: false);
+	@include base.border($shadow: false, $border: false);
 	width: fit-content;
 	padding: 2px 8px;
 	margin: 2px;
 	&:hover {
-		color: colors.$blue-4;
-		background-color: colors.$blue-1;
+		color: base.$blue-4;
+		background-color: base.$blue-1;
 	}
 }
 
 .navToggle {
-	background-color: colors.$blue-4;
-	color: colors.$blue-1;
+	background-color: base.$blue-4;
+	color: base.$blue-1;
 }

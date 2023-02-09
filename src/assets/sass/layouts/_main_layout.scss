@@ -1,5 +1,5 @@
-@use "../base/colors.scss" as colors;
-@use "../base/mixins.scss" as mixins;
+@use '../base' as base;
+
 
 .main_container {
 	margin: 9rem auto;
@@ -9,14 +9,14 @@
 .paragraph-col,
 .button-col {
 	margin: 0 auto;
-	@include mixins.flex-col-center;
+	@include base.flex-col-center;
 }
 
 .header-row {
-	@include mixins.border($shadow: false);
+	@include base.border($shadow: false);
 	min-height: 40vh;
 	width: 100vh;
-	background-color: colors.$blue-2;
+	background-color: base.$blue-2;
 	margin: 0.5rem auto;
 	padding-bottom: 1rem;
 	scroll-margin-block-start: 8rem;
@@ -26,5 +26,5 @@
 	width: 90%;
 	height: 90%;
 	object-fit: cover;
-	@include mixins.border($border: true, $thickness: 3px);
+	@include base.border($border: true, $thickness: 3px);
 }
