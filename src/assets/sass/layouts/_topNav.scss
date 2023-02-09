@@ -1,0 +1,43 @@
+@use '../base/colors.scss' as colors;
+@use '../base/mixins.scss' as mixins;
+
+.navigationBar {
+  background-color: colors.$color_19;
+  .navbar-brand {
+    color: colors.$color_19 ;
+    font-size: 1.5rem
+  };
+}
+
+.navbar-nav {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+}
+
+.logo {
+  width: 100px;
+  height: 100px;
+}
+
+#navLink {
+  color: colors.$color_22;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-radius: 0.5rem;
+  width: fit-content;
+  padding: 2px 8px;
+  margin: 2px;
+  &:hover {
+    color: colors.$color_19;
+    background-color: colors.$color_22;
+  }
+}
+
+.signUpInOut {
+  background-color: white;
+}
+.navToggle {
+  background-color: colors.$color_22;
+  color: colors.$color_19;
+}

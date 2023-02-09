@@ -1,0 +1,18 @@
+@use '../base/colors.scss' as colors;
+@use '../base/mixins.scss' as mixins;
+
+.main-container,
+.top-col,
+.paragraph-col,
+.button-col {
+  margin: 0 auto;
+  @include mixins.flex-col-center;
+}
+
+.header-row {
+  @include mixins.border;
+  height: 70vh;
+  width: 100vh;
+  background-color: colors.$color_21;
+  margin: 0.2rem auto;
+}
