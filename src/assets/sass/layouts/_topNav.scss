@@ -1,40 +1,40 @@
-@use '../base/colors.scss' as colors;
-@use '../base/mixins.scss' as mixins;
+@use "../base/colors.scss" as colors;
+@use "../base/mixins.scss" as mixins;
 
 .navigationBar {
-  background-color: colors.$color_22;
-  .navbar-brand {
-    color: colors.$color_19 ;
-    font-size: 1.5rem
-  };
+	background-color: colors.$blue-4;
+	.navbar-brand {
+		color: colors.$blue-1;
+		font-size: 1.5rem;
+	}
 }
 
 .navbar-nav {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: center;
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
 }
 
 .logo {
-  width: 100px;
-  height: 100px;
+	width: 100px;
+	height: 100px;
 }
 
 #navLink {
-  color: colors.$color_19;
-  font-size: 1.25rem;
-  font-weight: bold;
-  border-radius: 0.5rem;
-  width: fit-content;
-  padding: 2px 8px;
-  margin: 2px;
-  &:hover {
-    color: colors.$color_22;
-    background-color: colors.$color_19;
-  }
+	color: colors.$blue-1;
+	font-size: 1.25rem;
+	font-weight: bold;
+	@include mixins.border($shadow: false, $border: false);
+	width: fit-content;
+	padding: 2px 8px;
+	margin: 2px;
+	&:hover {
+		color: colors.$blue-4;
+		background-color: colors.$blue-1;
+	}
 }
 
 .navToggle {
-  background-color: colors.$color_22;
-  color: colors.$color_19;
+	background-color: colors.$blue-4;
+	color: colors.$blue-1;
 }

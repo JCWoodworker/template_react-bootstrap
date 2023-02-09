@@ -1,22 +1,30 @@
-@use '../base/colors.scss' as colors;
-@use '../base/mixins.scss' as mixins;
+@use "../base/colors.scss" as colors;
+@use "../base/mixins.scss" as mixins;
 
 .main_container {
-  margin: 9rem auto;
+	margin: 9rem auto;
 }
 
 .top-col,
 .paragraph-col,
 .button-col {
-  margin: 0 auto;
-  @include mixins.flex-col-center;
+	margin: 0 auto;
+	@include mixins.flex-col-center;
 }
 
 .header-row {
-  @include mixins.border;
-  height: 70vh;
-  width: 100vh;
-  background-color: colors.$color_20;
-  margin: 0.5rem auto;
-  scroll-margin-block-start: 8rem;
+	@include mixins.border($shadow: false);
+	min-height: 40vh;
+	width: 100vh;
+	background-color: colors.$blue-2;
+	margin: 0.5rem auto;
+	padding-bottom: 1rem;
+	scroll-margin-block-start: 8rem;
+}
+
+.row-image {
+	width: 90%;
+	height: 90%;
+	object-fit: cover;
+	@include mixins.border($shadow: false, $border: false);
 }

@@ -4,7 +4,7 @@
 @use './pages' as pages;
 
 body {
-  background-color: base.$color_22;
+  background-color: base.$blue-4;
 }
 
 h1 {
@@ -14,10 +14,14 @@ h1 {
 
 h2 {
   font-size: 2rem;
-  @include base.headings;
+  @include base.heading-2-3;
 }
 
 h3 {
   font-size: 1.5rem;
-  @include base.headings;
+  @include base.heading-2-3;
+}
+
+p {
+  color: base.$blue-1
 }
