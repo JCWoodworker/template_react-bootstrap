@@ -1,7 +1,10 @@
 @use '../base/colors.scss' as colors;
 @use '../base/mixins.scss' as mixins;
 
-.main-container,
+.main_container {
+  margin: 9rem auto;
+}
+
 .top-col,
 .paragraph-col,
 .button-col {
@@ -15,4 +18,5 @@
   width: 100vh;
   background-color: colors.$color_20;
   margin: 0.5rem auto;
+  scroll-margin-block-start: 8rem;
 }

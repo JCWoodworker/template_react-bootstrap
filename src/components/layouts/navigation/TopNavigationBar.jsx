@@ -10,7 +10,7 @@ const TopNavigationBar = ({ loggedIn }) => {
 			collapseOnSelect
 			expand="lg"
 			className="navigationBar"
-			sticky="top"
+			fixed="top"
 			variant="dark"
 		>
 			<Container>
