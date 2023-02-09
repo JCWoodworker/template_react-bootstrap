@@ -4,7 +4,7 @@ import { Container, Row, Col } from "react-bootstrap"
 import AboutUs from "./AboutUs"
 import Projects from "./Projects"
 import Events from "./Events"
-import Donate from "./Donate"
+import Donate from "./donation/Donate"
 import GetInvolved from "./GetInvolved"
 
 const GuestHomePage = () => {

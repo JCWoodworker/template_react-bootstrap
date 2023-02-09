@@ -1,5 +1,6 @@
 import React, { useState } from "react"
 import "./assets/sass/main.scss"
+import { PayPalScriptProvider } from "@paypal/react-paypal-js"
 
 import TopNavigationBar from "./components/layouts/navigation/TopNavigationBar.jsx"
 import UserHome from "./components/layouts/userPages/UserHome.jsx"
@@ -29,10 +30,10 @@ function App() {
 		)
 	} else {
 		return (
-			<>
+			<PayPalScriptProvider options={{ "client-id": "test" }}>
 				<TopNavigationBar loggedIn={loggedIn} />
 				<GuestHomePage />
-			</>
+			</PayPalScriptProvider>
 		)
 	}
 

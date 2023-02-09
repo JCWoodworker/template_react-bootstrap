@@ -1,0 +1,7 @@
+sandbox account:
+sb-dnadi21160188@business.example.com
+
+client id:
+ASzTeZXNMowzuUkN_J6weKe8kz-xtaRNc7_Y06QefGFBsZoyMK___yRVQxGvKmEA7qaI9QVjQB58WyrD
+secret:
+EEWSs7OkRfKx76VMXg2qxXdtJfnFq8wJowMEu2j2uDqslQwNPh4IAhIJjxDS5a32ig2rZ4sUjXr_st0h
