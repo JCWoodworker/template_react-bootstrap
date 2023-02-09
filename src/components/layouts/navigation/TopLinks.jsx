@@ -47,11 +47,8 @@ const TopLinks = ({ loggedIn }) => {
 
 	const guestLinks = (
 		<Nav>
-			<Nav.Link id="navLink" href="#home">
-				Home
-			</Nav.Link>
-			<Nav.Link id="navLink" href="#donate">
-				Donate
+			<Nav.Link id="navLink" href="#aboutUs">
+				About Us
 			</Nav.Link>
 			<Nav.Link id="navLink" href="#projects">
 				Projects
@@ -59,14 +56,11 @@ const TopLinks = ({ loggedIn }) => {
 			<Nav.Link id="navLink" href="#events">
 				Events
 			</Nav.Link>
+			<Nav.Link id="navLink" href="#donate">
+				Donate
+			</Nav.Link>
 			<Nav.Link id="navLink" href="#getInvolved">
 				Get Involved
-			</Nav.Link>
-			<Nav.Link id="navLink" href="#aboutUs">
-				About Us
-			</Nav.Link>
-			<Nav.Link id="navLink" href="#contact">
-				Contact
 			</Nav.Link>
 			<Nav.Link id="navLink" eventKey={1} href="#signIn">
 				Sign In

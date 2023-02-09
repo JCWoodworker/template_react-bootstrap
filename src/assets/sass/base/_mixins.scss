@@ -1,35 +1,35 @@
-@use './colors.scss' as colors;
+@use "./colors.scss" as colors;
 
 // Flexbox mixins
 
 @mixin flex-col-center {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
 }
 
 // Text mixins
 
 @mixin headings {
-  font-weight: 600;
-  margin: 1rem 0.5rem;
-  padding: 0 0.8rem;
-  width:fit-content;
-  @include border;
-  color: colors.$color_22;
-  background-color: colors.$color_19;
-  box-shadow: colors.$box-shadow;
+	font-weight: 600;
+	margin: 1rem 0.5rem;
+	padding: 0 0.8rem;
+	width: fit-content;
+	color: colors.$color_19;
+	background-color: colors.$color_22;
+	box-shadow: colors.$box-shadow;
+	@include border;
 }
 
 // container mixins
 
 @mixin container {
-  color: colors.$color_19;
-  background-color: colors.$color_21;
+	color: colors.$color_21;
+	background-color: colors.$color_19;
 }
 
 @mixin border {
-  border: 1px solid colors.$color_19;
-  border-radius: 1rem;
+	border-radius: 0.5rem;
+	box-shadow: colors.$box-shadow;
 }

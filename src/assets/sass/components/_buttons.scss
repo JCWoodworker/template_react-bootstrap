@@ -1,9 +1,9 @@
 @use "../base/colors.scss";
 
 .clickable-button {
-	color: colors.$medium-beige;
-	background-color: colors.$color_21;
-	border: 1px solid colors.$medium-beige;
+	color: colors.$color_22;
+	background-color: colors.$color_19;
+	border: 1px solid colors.$color_19;
 	border-radius: 0.5rem;
 	padding: 0.5rem 1rem;
 	font-size: 1rem;
@@ -13,6 +13,6 @@
 		background-image: url("WoodBackground.jpeg");
 	}
 	&:active {
-		border: 2px solid colors.$medium-beige;
+		border: 2px solid colors.$color_19;
 	}
 }
