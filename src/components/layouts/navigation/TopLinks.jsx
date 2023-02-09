@@ -2,6 +2,12 @@ import React from "react"
 import { Nav } from "react-bootstrap"
 
 const TopLinks = ({ loggedIn }) => {
+
+	const signUpInOutClick = (event) => {
+		event.preventDefault()
+		alert(`This functionality has not been implemented yet.`)
+	}
+
 	const userLinks = (
 		<Nav>
 			<Nav.Link id="navLink" href="#projects">
@@ -22,7 +28,7 @@ const TopLinks = ({ loggedIn }) => {
 			<Nav.Link id="navLink" href="#priceList">
 				Price List
 			</Nav.Link>
-			<Nav.Link id="navLink" eventKey={2} href="#signOut">
+			<Nav.Link id="navLink" eventKey={2} onClick={signUpInOutClick}>
 				Sign Out
 			</Nav.Link>
 		</Nav>
@@ -39,7 +45,7 @@ const TopLinks = ({ loggedIn }) => {
 			<Nav.Link id="navLink" href="#analytics">
 				Analytics
 			</Nav.Link>
-			<Nav.Link id="navLink" eventKey={2} href="#signOut">
+			<Nav.Link id="navLink" eventKey={2} onClick={signUpInOutClick}>
 				Sign Out
 			</Nav.Link>
 		</Nav>
@@ -62,10 +68,10 @@ const TopLinks = ({ loggedIn }) => {
 			<Nav.Link id="navLink" href="#getInvolved">
 				Get Involved
 			</Nav.Link>
-			<Nav.Link id="navLink" eventKey={1} href="#signIn">
+			<Nav.Link id="navLink" eventKey={1} onClick={signUpInOutClick}>
 				Sign In
 			</Nav.Link>
-			<Nav.Link id="navLink" href="#register">
+			<Nav.Link id="navLink" onClick={signUpInOutClick}>
 				Register
 			</Nav.Link>
 		</Nav>
