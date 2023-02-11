@@ -19,12 +19,12 @@
 	background-color: base.$blue-2;
 	margin: 0.5rem auto;
 	padding-bottom: 1rem;
-	scroll-margin-block-start: 8rem;
+	scroll-margin-block-start: 7.5rem;
 }
 
 .row-image {
 	width: 90%;
 	height: 90%;
 	object-fit: cover;
-	@include base.border($border: true, $thickness: 3px);
+	@include base.border($border: true, $thickness: 3px, $color: base.$purple-4);
 }

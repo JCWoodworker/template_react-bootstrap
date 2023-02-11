@@ -68,12 +68,12 @@ const TopLinks = ({ loggedIn }) => {
 			<Nav.Link id="navLink" href="#getInvolved">
 				Get Involved
 			</Nav.Link>
-			<Nav.Link id="navLink" eventKey={1} onClick={signUpInOutClick}>
+			{/* <Nav.Link id="navLink" eventKey={1} onClick={signUpInOutClick}>
 				Sign In
 			</Nav.Link>
 			<Nav.Link id="navLink" onClick={signUpInOutClick}>
 				Register
-			</Nav.Link>
+			</Nav.Link> */}
 		</Nav>
 	)
 

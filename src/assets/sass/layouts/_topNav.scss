@@ -1,23 +1,27 @@
 @use '../base' as base;
 
+// this is the logo in the top left corner
+// if you change the size, you'll also need to change `scroll-margin-block-start` in _main_layout.scss under .header-row
+
+.logo {
+	width: 250px;
+	height: auto;
+}
 
 .navigationBar {
-	background-color: base.$blue-4;
+	background-color: base.$purple-4;
 	.navbar-brand {
 		color: base.$blue-1;
 		font-size: 1.5rem;
 	}
 }
 
+// These are the navigation links in the top right corner.  On smaller screens they collapse into a hamburger menu
+
 .navbar-nav {
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
-}
-
-.logo {
-	width: 100px;
-	height: 100px;
 }
 
 #navLink {
