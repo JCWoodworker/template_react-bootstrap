@@ -16,3 +16,7 @@
 		border: 2px solid colors.$blue-1;
 	}
 }
+
+.paypal-buttons {
+	@include mixins.flex-col-center;
+}

@@ -28,15 +28,14 @@ function App() {
 				<AdminHome />
 			</>
 		)
-	} else {
-		return (
-			<PayPalScriptProvider options={{ "client-id": "test" }}>
-				<TopNavigationBar loggedIn={loggedIn} />
-				<GuestHomePage />
-			</PayPalScriptProvider>
-		)
 	}
 
+	return (
+		<PayPalScriptProvider options={{ "client-id": "test" }}>
+			<TopNavigationBar loggedIn={loggedIn} />
+			<GuestHomePage />
+		</PayPalScriptProvider>
+	)
 }
 
 export default App

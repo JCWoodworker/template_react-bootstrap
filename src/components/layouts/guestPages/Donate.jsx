@@ -7,8 +7,8 @@ const Donate = () => {
 
 	return (
 		<>
-			<h1>Donate</h1>
-			<PayPalButtons
+			<h1>Donate $20</h1>
+			<PayPalButtons className="paypal-buttons"
 				style={{ layout: "vertical", label: "donate" }}
 				disabled={false}
 				createOrder={(data, actions) => {
