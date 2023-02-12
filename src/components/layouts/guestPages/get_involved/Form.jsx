@@ -23,7 +23,7 @@ const Form = () => {
 						</div>
 						<div>
 							<label>Cell (no dashes):</label>
-							<input type="tel" pattern="[0-9]{10}" name="phone" />
+							<input type="tel" pattern="[0-9]{10}" name="phone" placeholder="123-456-7890" />
 						</div>
 						<div>
 							<label></label>

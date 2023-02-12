@@ -2,9 +2,10 @@
 @use './components' as components;
 @use './layouts' as layouts;
 @use './pages' as pages;
+@use './effects/' as effects;
 
 body {
-  background-color: base.$purple-4;
+  background-color: base.$purple-4_transparent;
 }
 
 h1 {

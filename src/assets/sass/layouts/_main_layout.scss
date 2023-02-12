@@ -14,12 +14,12 @@
 
 .header-row {
 	@include base.border($shadow: false);
-	min-height: 40vh;
+	min-height: 85vh;
 	width: 100vh;
 	background-color: base.$blue-2;
 	margin: 0.5rem auto;
 	padding-bottom: 1rem;
-	scroll-margin-block-start: 7.5rem;
+	scroll-margin-block-start: 8rem;
 }
 
 .row-image {
