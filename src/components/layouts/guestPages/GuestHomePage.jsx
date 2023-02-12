@@ -5,7 +5,7 @@ import AboutUs from "./AboutUs"
 import Projects from "./Projects"
 import Events from "./Events"
 import Donate from "./Donate"
-import GetInvolved from "./GetInvolved"
+import GetInvolved from "./get_involved/GetInvolved" 
 
 const GuestHomePage = () => {
 	return (

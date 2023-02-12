@@ -22,20 +22,27 @@
 	gap: 1rem;
 }
 
-.form-label {
-	color: base.$blue-1;
-	font-size: 1rem;
-	font-weight: 700;
-	margin-bottom: 0.5rem;
-}
-
 .form-control {
+	@include base.flex-row-center;
+	gap: 1rem;
 	color: base.$blue-1;
 	background-color: base.$blue-3;
 	border: 1px solid base.$blue-1;
 	@include base.border($shadow: false, $border: false);
 	margin: 0.5rem;
-	width: 150px;
+	padding: 1rem;
+	width: fit-content;
+	div {
+		display: flex;
+		flex-direction: column;
+		label {
+			text-align: center;
+			color: base.$blue-1;
+			font-size: 1rem;
+			font-weight: 700;
+			margin-bottom: 0.5rem;
+		}
+	}
 	p {
 		color: base.$blue-1;
 	}

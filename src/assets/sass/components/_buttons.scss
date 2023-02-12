@@ -2,18 +2,18 @@
 @use "../base/mixins.scss";
 
 .clickable-button {
-	color: colors.$blue-4;
-	background-color: colors.$blue-1;
-	@include mixins.border($shadow: false);
+	color: colors.$blue-1;
+	background-color: colors.$purple-4;
+	@include mixins.border();
 	padding: 0.5rem 1rem;
 	font-size: 1rem;
 	font-weight: 700;
 	&:hover {
 		cursor: pointer;
-		background-image: url("WoodBackground.jpeg");
 	}
 	&:active {
-		border: 2px solid colors.$blue-1;
+		color: colors.$blue-4;
+		background-color: colors.$blue-1;
 	}
 }
 

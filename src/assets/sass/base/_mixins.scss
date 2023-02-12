@@ -9,6 +9,13 @@
 	align-items: center;
 }
 
+@mixin flex-row-center {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	align-items: center;
+}
+
 // Text mixins
 
 @mixin headings {
