@@ -2,21 +2,15 @@
 @use "../base/mixins.scss";
 
 .clickable-button {
-	color: colors.$blue-1;
-	background-color: colors.$purple-4;
+	color: colors.$MainScheme4;
+	background-color: colors.$MainScheme1;
 	@include mixins.border();
 	padding: 0.5rem 1rem;
 	font-size: 1rem;
 	font-weight: 700;
 	&:hover {
 		cursor: pointer;
+		color: colors.$MainScheme4;
+		background-color: colors.$Accent1;
 	}
-	&:active {
-		color: colors.$blue-4;
-		background-color: colors.$blue-1;
-	}
-}
-
-.paypal-buttons {
-	@include mixins.flex-col-center;
 }

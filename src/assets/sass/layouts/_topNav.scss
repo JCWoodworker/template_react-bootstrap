@@ -1,21 +1,24 @@
 @use '../base' as base;
 
 .navigationBar {
-	background-color: base.$purple-4;
+	background-color: base.$MainScheme4;
+	border-bottom: 3px solid base.$MainScheme2;
+	box-shadow: base.$box-shadow;
+	position: fixed; 
 	.navbar-brand {
-		color: base.$blue-1;
+		color: base.$MainScheme1;
 		font-size: 1.5rem;
 	}
 }
 
 // this is the logo in the top left corner
-// if you change the size, you'll also need to change `scroll-margin-block-start` in _main_layout.scss under .header-row
+// if you change the size, you'll also need to change `scroll-margin-block-start` in _subcomponents.scss under .component-container	
 
 .logo {
 	width: 250px;
 	height: auto;
-	padding-top: 0.5rem;
-	border-radius: 2rem;
+	margin: 0.5rem 0;
+	border-radius: 0.5rem;
 }
 
 // These are the navigation links in the top right corner.  On smaller screens they collapse into a hamburger menu
@@ -24,10 +27,11 @@
 	display: flex;
 	flex-flow: row wrap;
 	justify-content: center;
+	position: sticky;
 }
 
 #navLink {
-	color: base.$blue-1;
+	color: base.$MainScheme1;
 	font-size: 1.25rem;
 	font-weight: bold;
 	@include base.border($shadow: false, $border: false);
@@ -35,12 +39,12 @@
 	padding: 2px 8px;
 	margin: 2px;
 	&:hover {
-		color: base.$blue-4;
-		background-color: base.$blue-1;
+		color: base.$MainScheme4;
+		background-color: base.$MainScheme1;
 	}
 }
 
 .navToggle {
-	background-color: base.$blue-4;
-	color: base.$blue-1;
+	background-color: base.$MainScheme4;
+	color: base.$MainScheme1;
 }

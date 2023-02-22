@@ -1,0 +1,24 @@
+@use '../base/' as base;
+
+.component-container {
+	@include base.border($shadow: true);
+	min-height: 80vh;
+	width: 100vw;
+	background-color: base.$MainScheme3;
+	margin: 1rem auto;
+	padding-bottom: 2rem;
+	scroll-behavior: smooth;
+  // This is the line that makes the header row scroll to the top of the page and needs to be changed when top nav-bar dimensions change
+	scroll-margin-block-start: 9rem;
+}
+
+.row-image {
+	width: 70%;
+	height: 70%;
+	object-fit: contain;
+	margin-bottom: 1.5rem;
+	@include base.border($shadow: true, $border: true, $thickness: 3px, $color: base.$MainScheme4);
+	&:hover {
+		@include base.border($shadow: true, $border: true, $thickness: 3px, $color: base.$MainScheme1);
+	}
+}

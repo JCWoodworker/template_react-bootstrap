@@ -14,7 +14,7 @@ const GuestHomePage = () => {
 			
 			<FadeInSection>
 				<Row>
-					<Col className="header-row" id="aboutUs">
+					<Col className="component-container"  id="aboutUs">
 						<AboutUs />
 					</Col>
 				</Row>
@@ -22,7 +22,7 @@ const GuestHomePage = () => {
 
 			<FadeInSection>
 				<Row>
-					<Col className="header-row" id="projects">
+					<Col className="component-container" id="projects">
 						<Projects />
 					</Col>
 				</Row>
@@ -30,7 +30,7 @@ const GuestHomePage = () => {
 
 			<FadeInSection>
 				<Row>
-					<Col className="header-row" id="events">
+					<Col className="component-container" id="events">
 						<Events />
 					</Col>
 				</Row>
@@ -38,7 +38,7 @@ const GuestHomePage = () => {
 
 			<FadeInSection>
 				<Row>
-					<Col className="header-row" id="donate">
+					<Col className="component-container" id="donate">
 						<Donate />
 					</Col>
 				</Row>
@@ -46,7 +46,7 @@ const GuestHomePage = () => {
 
 			<FadeInSection>
 				<Row>
-					<Col className="header-row" id="getInvolved">
+					<Col className="component-container" id="getInvolved">
 						<GetInvolved />
 					</Col>
 				</Row>

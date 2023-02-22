@@ -1,12 +1,12 @@
 import React from "react"
-import { Container, Row, Col } from "react-bootstrap"
 import Form from "./form"
+import GetInvolvedForm from "./GetInvolvedForm"
 
 const GetInvolved = () => {
 	return (
 		<>
 			<h1>Get Involved</h1>
-			<Form />
+			<GetInvolvedForm />
 		</>
 	)
 }

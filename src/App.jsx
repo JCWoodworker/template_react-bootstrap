@@ -31,10 +31,12 @@ function App() {
 	}
 
 	return (
-		<PayPalScriptProvider options={{ "client-id": "test" }}>
+		<>
 			<TopNavigationBar loggedIn={loggedIn} />
-			<GuestHomePage />
-		</PayPalScriptProvider>
+			<PayPalScriptProvider options={{ "client-id": "test" }}>
+				<GuestHomePage />
+			</PayPalScriptProvider>
+		</>
 	)
 }
 

@@ -20,25 +20,26 @@
 
 @mixin headings {
 	font-weight: 600;
-	margin: 1rem 0.5rem;
-	padding: 0 0.8rem;
+	margin: 1rem;
+	margin-bottom: 2rem;
+	padding: 1rem;
 	width: fit-content;
-	color: colors.$blue-1;
-	background-color: colors.$purple-4;
+	color: colors.$MainScheme1;
+	background-color: colors.$MainScheme4;
 	@include border($shadow: true, $radius: true, $border: true);
 }
 
 @mixin heading-2-3 {
-	font-weight: 300;
+	font-weight: 500;
 	padding: 0.5rem;
-	color: colors.$blue-1;
+	color: white;
 }
 
 // container mixins
 
 @mixin container {
-	color: colors.$blue-3;
-	background-color: colors.$blue-1;
+	color: colors.$MainScheme3;
+	background-color: colors.$MainScheme1;
 }
 
 @mixin border(
@@ -46,13 +47,13 @@
 	$radius: true,
 	$border: true,
 	$thickness: 0px,
-	$color: colors.$blue-4
+	$color: colors.$MainScheme4
 ) {
 	@if $shadow {
 		box-shadow: colors.$box-shadow;
 	}
 	@if $radius {
-		border-radius: 0.5rem;
+		border-radius: 0.25rem;
 	}
 	@if $border {
 		border: $thickness solid $color;

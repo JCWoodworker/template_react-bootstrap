@@ -1,0 +1,12 @@
+@use '../base/' as base;
+
+.icon {
+  margin-left: 1rem;
+  color: base.$MainScheme1;
+  &:hover {
+    color: base.$Accent1;
+  };
+  &:active {
+    color: base.$Accent2;
+  };
+}
