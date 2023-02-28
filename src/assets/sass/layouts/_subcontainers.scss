@@ -12,6 +12,13 @@
 	scroll-margin-block-start: 9rem;
 }
 
+<<<<<<< HEAD
+=======
+.project-row {
+	@include base.flex-row-center;
+}
+
+>>>>>>> 3b03d1e (stuff)
 .row-image {
 	width: 70%;
 	height: 70%;

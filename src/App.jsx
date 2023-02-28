@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import React, { useState } from "react"
 import "./assets/sass/main.scss"
 import { PayPalScriptProvider } from "@paypal/react-paypal-js"
@@ -36,6 +37,20 @@ function App() {
 			<PayPalScriptProvider options={{ "client-id": "test" }}>
 				<GuestHomePage />
 			</PayPalScriptProvider>
+=======
+import React from "react"
+import "./assets/sass/main.scss"
+
+import TopNavigationBar from "./components/layouts/navigation/TopNavigationBar.jsx"
+import ProjectsIndex from "./components/layouts/projectPages/ProjectsIndex"
+
+function App() {
+
+	return (
+		<>
+			<TopNavigationBar />
+			<ProjectsIndex />
+>>>>>>> 3b03d1e (stuff)
 		</>
 	)
 }
