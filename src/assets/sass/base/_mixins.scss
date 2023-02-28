@@ -43,15 +43,9 @@
 }
 
 @mixin border(
-<<<<<<< HEAD
-	$shadow: true,
-	$radius: true,
-	$border: true,
-=======
 	$shadow: false,
 	$radius: false,
 	$border: false,
->>>>>>> 3b03d1e (stuff)
 	$thickness: 0px,
 	$color: colors.$MainScheme4
 ) {

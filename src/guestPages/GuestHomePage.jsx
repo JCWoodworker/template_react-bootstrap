@@ -6,7 +6,7 @@ import Projects from "./Projects"
 import Events from "./Events"
 import Donate from "./Donate"
 import GetInvolved from "./get_involved/GetInvolved"
-import FadeInSection from "../../services/FadeInSection"
+import FadeInSection from "../components/services/FadeInSection"
 
 const GuestHomePage = () => {
 	return (
