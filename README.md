@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-# React-Bootstrap Template
-## This can be used as a quick template to spin up websites in the future!!
-
-### Take a look while it is under construction!!
-=======
 # JC's Portfolio!
   * React app created with Vite
   * Deployed using Netlify
@@ -61,5 +55,4 @@
     * 2/22 - No validation besies generic email checking yet
     * Credentials are stored as environment variables kept off Github
 
->>>>>>> 3b03d1e (stuff)
 
