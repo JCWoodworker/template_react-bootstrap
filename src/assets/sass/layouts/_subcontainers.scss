@@ -1,7 +1,7 @@
 @use '../base/' as base;
 
 .component-container {
-	@include base.border($shadow: true);
+	@include base.border($shadow: true, $radius: true);
 	min-height: 80vh;
 	width: 100vw;
 	background-color: base.$MainScheme3;
@@ -14,15 +14,4 @@
 
 .project-row {
 	@include base.flex-row-center;
-}
-
-.row-image {
-	width: 70%;
-	height: 70%;
-	object-fit: contain;
-	margin-bottom: 1.5rem;
-	@include base.border($shadow: true, $border: true, $thickness: 3px, $color: base.$MainScheme4);
-	&:hover {
-		@include base.border($shadow: true, $border: true, $thickness: 3px, $color: base.$MainScheme1);
-	}
 }

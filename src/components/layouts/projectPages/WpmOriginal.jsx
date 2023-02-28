@@ -1,5 +1,5 @@
 import React from "react"
-import { Container, Row, Col } from "react-bootstrap"
+import { Image, Container, Row, Col } from "react-bootstrap"
 import GithubHeaderLink from "../../icons/GithubHeaderLink"
 
 const WpmOriginal = () => {
@@ -23,8 +23,9 @@ const WpmOriginal = () => {
 					</Col>
 					<Col>
 						<a href="https://woodworking-project-calc.herokuapp.com/" target="_blank">
-							<img
-								className="row-image"
+							<Image
+								fluid
+								rounded
 								src="https://s3.amazonaws.com/jcwoodworker.portfolio/screenshot-wpm-original.png"
 								alt="placeholder"
 							/>

@@ -10,7 +10,7 @@ const ProjectsIndex = () => {
 	return (
 		<Container className="mainContainer" id="projects">
 			
-			<FadeInSection>
+			<FadeInSection >
 				<Row>
 					<Col className="component-container" id="wpm">
 						<WpmOriginal />

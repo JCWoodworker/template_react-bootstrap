@@ -1,5 +1,5 @@
 import React from "react"
-import { Container, Row, Col } from "react-bootstrap"
+import { Container, Row, Col, Image } from "react-bootstrap"
 import GithubHeaderLink from "../../icons/GithubHeaderLink"
 
 const CarShow = () => {
@@ -16,8 +16,9 @@ const CarShow = () => {
 							href="https://car-show-app-preprod.herokuapp.com/"
 							target="_blank"
 						>
-							<img
-								className="row-image"
+							<Image
+								fluid
+								rounded
 								src="https://s3.amazonaws.com/jcwoodworker.portfolio/screenshot-car-show-app.png"
 								alt="placeholder"
 							/>
