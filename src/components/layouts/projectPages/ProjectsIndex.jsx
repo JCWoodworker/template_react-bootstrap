@@ -11,7 +11,7 @@ const ProjectsIndex = () => {
 		<Container className="mainContainer" id="projects">
 			
 			<FadeInSection >
-				<Row>
+				<Row className="testingClass">
 					<Col className="component-container" id="wpm">
 						<WpmOriginal />
 					</Col>

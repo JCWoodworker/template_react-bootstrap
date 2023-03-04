@@ -2,11 +2,10 @@
 
 .component-container {
 	@include base.border($shadow: true, $radius: true);
-	min-height: 80vh;
+	min-height: 60vh;
 	width: 100vw;
-	background-color: base.$MainScheme3;
+	background-color: base.$MainScheme4-transparent;
 	margin: 1rem auto;
-	padding-bottom: 2rem;
 	scroll-behavior: smooth;
   // This is the line that makes the header row scroll to the top of the page and needs to be changed when top nav-bar dimensions change
 	scroll-margin-block-start: 9rem;
@@ -14,4 +13,12 @@
 
 .project-row {
 	@include base.flex-row-center;
+}
+
+.screenshot {
+	@include base.border($border: true, $thickness: 3px, $radius: true, $color: gray);
+	margin-bottom: 1rem;
+  &:hover {
+    @include base.border($shadow: true);
+  }
 }

@@ -18,7 +18,7 @@ const CarShow = () => {
 						>
 							<Image
 								fluid
-								rounded
+								className = "screenshot"
 								src="https://s3.amazonaws.com/jcwoodworker.portfolio/screenshot-car-show-app.png"
 								alt="placeholder"
 							/>
@@ -28,11 +28,7 @@ const CarShow = () => {
 					</Col>
 					<Col>
 						<h3>
-							Made for the Michael P Stefanik Charitable Foundation, this app
-							allows users to add vehicles to there profile and choose which
-							one(s) to register for our annual car show. Paypal integrated.
-							Admins can view data on all users and vehicles, and register a
-							vehicle as "cash" if the user does not want to use a credit card.
+							Made for the Michael P Stefanik Charitable Foundation annual car show.  Users can register for the show and pay via Paypal.
 						</h3>
 					</Col>
 				</Row>

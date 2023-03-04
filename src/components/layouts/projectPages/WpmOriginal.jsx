@@ -13,19 +13,15 @@ const WpmOriginal = () => {
 				<Row className="project-row">
 					<Col>
 						<h3>
-							This allows woodworkers to manage their projects and also their
-							customers with a build-in CRM. Twilio integration allows them to
-							text ther customers as well. A local lumberyard who's customers
-							use the app can login to their admin account and view data on what
-							hardwoods their users need (and how much), update pricing, and
-							message all users.
+							Woodworkers can manage projects and customers. A lumberyard can distribute the app to their customers, edit 
+							hardwood pricing, view anonymous data from user projects, and send marketing emails to all users.
 						</h3>
 					</Col>
 					<Col>
 						<a href="https://woodworking-project-calc.herokuapp.com/" target="_blank">
 							<Image
 								fluid
-								rounded
+								className = "screenshot"
 								src="https://s3.amazonaws.com/jcwoodworker.portfolio/screenshot-wpm-original.png"
 								alt="placeholder"
 							/>
